@@ -1,0 +1,34 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: floralwhite;
+  color: black;
+  line-height: 1.6;
+}
+
+header {
+  background-color: lightblue;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+section {
+  padding: 20px;
+  margin: 15px;
+}
+
+.rounded-img {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 4px 6px gray;
+  transition: transform 0.3s;
+}
+
+.rounded-img:hover {
+  transform: scale(1.05);
+}
